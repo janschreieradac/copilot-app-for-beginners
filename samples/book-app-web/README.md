@@ -33,5 +33,10 @@ Those files describe bugs learners can introduce or fix in a branch without maki
 
 ## Visual polish practice
 
-Use this branch to practice planning responsive card improvements before changing UI code.
+Book cards use three columns on desktop, two at 820px and below, and one at 560px
+and below. Titles wrap without truncation, favorite badges keep their shape, and
+reading status stays visible as text. Filters have visible keyboard focus.
 
+When comparing visual changes, check a narrow mobile viewport (320px or 375px)
+and both sides of each breakpoint, including the longest title and both reading
+statuses.
